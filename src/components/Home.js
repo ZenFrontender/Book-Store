@@ -65,8 +65,8 @@ const Home = () =>{
                         <div className="carousel-item active">
                             <img className="d-block w-100 img-fluid carousel-img" src="https://i.pinimg.com/736x/cb/64/7e/cb647e178bbccfb7498002aa2d070f18.jpg" alt="First slide" />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>...</h5>
-                                <p>...</p>
+                                <h5>Mystery</h5>
+                                <p>Get thrilling nail biting mysteries</p>
                             </div>
                         </div>
                         <div className="carousel-item active">
