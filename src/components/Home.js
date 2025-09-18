@@ -1,7 +1,6 @@
-import Header from "./Header";
-
 const Home = () =>{
     return(
+        <div>
         <div className="container">
             <div className="row">
                 <div className="col-sm-2">
@@ -53,7 +52,7 @@ const Home = () =>{
                         </div>
                 </div>
             </div>
-            <div className="row carousel-row mt-5">
+            <div className="row carousel-row mt-5 mb-5">
                 <div className="col-sm-8 carousel">
                     <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
@@ -62,14 +61,14 @@ const Home = () =>{
                             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         </ol>
                     <div className="carousel-inner">
-                        <div className="carousel-item active">
+                        <div className="carousel-item">
                             <img className="d-block w-100 img-fluid carousel-img" src="https://i.pinimg.com/736x/cb/64/7e/cb647e178bbccfb7498002aa2d070f18.jpg" alt="First slide" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>Mystery</h5>
                                 <p>Get thrilling nail biting mysteries</p>
                             </div>
                         </div>
-                        <div className="carousel-item active">
+                        <div className="carousel-item">
                             <img className="d-block w-100 img-fluid carousel-img" src="https://i.pinimg.com/736x/ba/04/9d/ba049d97eaa9840799f17e27ed8b35eb.jpg" alt="First slide" />
                             <div className="carousel-caption d-none d-md-block">
                                 <h5>...</h5>
@@ -94,8 +93,21 @@ const Home = () =>{
                     </a>
                     </div>
                     </div>
-                </div>
             </div>
+              <div className="row text-center">
+                <div className="col-sm-4 new-release">
+                    <img src="https://i.pinimg.com/736x/4f/9c/cd/4f9ccd9990570f659deb81a4435dfe60.jpg" />
+                </div>
+                <div className="col-sm-4 new-release">
+                    <img src="https://i.pinimg.com/736x/4f/9c/cd/4f9ccd9990570f659deb81a4435dfe60.jpg" />
+                </div>
+        </div>
+           
+          
+           
+
+        </div>
+        </div>
     )
  }
 

@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import ProductsListing from "./components/ProductsListing";
+import ProductCards from "./components/ProductCards";
 
 const App = () =>{
 
@@ -26,6 +28,10 @@ const appRoutes = createBrowserRouter([
           {
             path: '/',
             element: <Home/>
+          },
+          {
+            path: '/products',
+            element: <ProductCards />
           }
         ]
       }

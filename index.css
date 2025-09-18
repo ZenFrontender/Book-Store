@@ -1,7 +1,11 @@
 .card-img-top{
      width: 100%;
-    height: 18vh;
+    height: 20vh;
      /* object-fit: cover; */
+}
+
+.card{
+    width: 14vw;
 }
 
 .carousel{
@@ -14,6 +18,13 @@
     border-radius: 25px;
 }
 
-.carousel-row{
-    height: 20vh;
+.carousel-item, .carousel-img{
+    height: 80vh;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
 }
+
+/* .new-release{
+    margin: auto;
+} */

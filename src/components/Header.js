@@ -12,7 +12,7 @@ export default function Header() {
         <div>
           <NavLink className="nav-NavLink navbar-brand">
             <h4 className="text-body-tertiary me-5">
-              <strong>MyShoppingSite</strong>
+              <strong>Book Store</strong>
             </h4>
           </NavLink>
         </div>
