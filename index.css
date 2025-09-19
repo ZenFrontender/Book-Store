@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-.add-to-cart-btn{
+.add-to-cart-btn, .product-details-btn{
     /* width: 100%;
     margin: 0;
     padding: 0; */
@@ -41,6 +41,20 @@
     padding: 0;
 }
 
-/* .card-text{
-    mar
-} */
+.product-details-container{
+    margin: 2vw
+}
+
+
+.product-details-img{
+    height: 40vh;
+}
+
+.product-info-col{
+    padding: 0;
+}
+
+.btn-secondary{
+    background-color: rgb(166, 166, 166);
+    border: 0;
+}
