@@ -4,12 +4,19 @@ const ProductCards = () =>{
 
     return(
         <div className="container">
-            <div className="container card">
-                <img src="https://assets.mugglenet.com/wp-content/uploads/2022/05/DH-book-cover-Swedin-edition.jpg" className="card-img-top" alt="..." />
-                <div className="card-body">
-                    <h5 className="card-title">Card title</h5>
-                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                    <a href="#" className="btn btn-primary">Go somewhere</a>
+            <div className="row">
+                <div className="col-sm-2">
+                    <div className="card product-card">
+                        <img src="https://assets.mugglenet.com/wp-content/uploads/2022/05/DH-book-cover-Swedin-edition.jpg" className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <p className="card-text mt-1 mb-1">Harry Potter</p>
+                            <h5 className="card-title mb-3">$400</h5>
+                            {/* <p className="g">Harry Potter</p>
+                            <h5 className="c">$400</h5> */}
+                            
+                            <button className=" btn btn-secondary add-to-cart-btn w-100">Go somewhere</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
