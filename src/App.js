@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import ProductsListing from "./components/ProductsListing";
 import ProductCards from "./components/ProductCards";
 import ProductDetails from "./components/ProductDetails";
+import { IconName } from "react-icons/bs";
 
 const App = () =>{
 

@@ -58,3 +58,27 @@
     background-color: rgb(166, 166, 166);
     border: 0;
 }
+
+.quantity-btn{
+    border-radius: 50%;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+.quantity-val{
+    display: inline-block;
+    padding: 2px;
+    /* border: 1px solid black; */
+    width: 3vw;
+    
+}
+
+.align-middle{
+    text-align: center;
+}
+
+.quantity-box{
+    border: 1px solid rgb(125, 125, 125);
+    padding: 4px 12px;
+    color: rgb(118, 118, 118);
+    cursor: pointer;
+}
