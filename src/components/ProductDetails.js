@@ -1,4 +1,6 @@
-import { FaRegBuilding } from "react-icons/fa";
+import { FaRegBuilding, FaTruck } from "react-icons/fa";
+import { GiTakeMyMoney } from "react-icons/gi";
+import { MdOutlinePayments } from "react-icons/md";
 
 const ProductDetails = () =>{
 
@@ -38,34 +40,50 @@ const ProductDetails = () =>{
                     </div>
 
                     <hr />
-                    <div>
-                        <FaRegBuilding />
+
+                    <div className="row align-items-start text-center mb-3">
+
+                        <div className="col-sm-2 p-0 facilities">
+                            <FaRegBuilding className="icons-facilities" />
+                        </div>
+                        <div className="col-sm-2 p-0 facilities">
+                           <GiTakeMyMoney className="icons-facilities"/>
+                        </div>
+                        <div className="col-sm-2 p-0 facilities">
+                            <FaTruck  className="icons-facilities"/>
+                        </div>
+                        <div className="col-sm-2 p-0 facilities">
+                            <MdOutlinePayments className="icons-facilities" />
+                        </div>
+
                     </div>
-                    <div className="row align-items-start">
-    <div className="col">
-      One of three columns
-    </div>
-    <div className="col">
-      One of three columns
-    </div>
-    <div className="col">
-      One of three columns
-    </div>
-  </div>
-  <div className="row align-items-center">
-    <div className="col">
-      One of three columns
-    </div>
-    <div className="col">
-      One of three columns
-    </div>
-    <div className="col">
-      One of three columns
-    </div>
-  </div>
+
+                    <div className="row align-items-start text-center mb-5">
+
+                        <div className="col-sm-2 text-facilities facilities">
+                           <span className="texttt">10 days returnable</span> 
+                        </div>
+                        <div className="col-sm-2 text-facilities facilities">
+                            <span className="texttt">Pay on Delivery</span>
+                        </div>
+                        <div className="col-sm-2 text-facilities facilities">
+                            <span className="texttt">Free Delivery</span>
+                        </div>
+                        <div className="col-sm-2 text-facilities facilities">
+                           <span className="texttt">Secure Payment</span>
+                        </div>
+
+                    </div>
+
+                    <hr className="mb-3" />
+
+
                     
-                </div>
+                  
+                    
+                
             </div>
+        </div>
         </div>
     )
 }

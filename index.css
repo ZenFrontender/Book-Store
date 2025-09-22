@@ -1,12 +1,12 @@
-.card-img-top{
+.card>.card-img-top{
      width: 100%;
-    height: 30vh;
+    height: 20vh;
      /* object-fit: cover; */
 }
 
-.card{
+/* .card{
     width: 14vw;
-}
+} */
 
 .carousel{
     margin: auto;
@@ -62,6 +62,9 @@
 .quantity-btn{
     border-radius: 50%;
     border: 1px solid rgb(160, 160, 160);
+    /* padding: 15px; */
+    width: 30px;
+    height: 30px;
 }
 
 .quantity-val{
@@ -81,4 +84,27 @@
     padding: 4px 12px;
     color: rgb(118, 118, 118);
     cursor: pointer;
+}
+
+.icons-facilities{
+    width: 7vw;
+    padding: 0;
+    height: 4vh;
+}
+
+.text-facilities{
+    font-size: 0.8em;
+    width: 10vw;
+    height: 2vh;
+}
+
+.texttt{
+    width: 50%;
+    display: inline-block;
+    height: 5vh;
+}
+
+.facilities{
+    width: 10vw;
+   
 }
