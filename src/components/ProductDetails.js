@@ -9,8 +9,8 @@ const ProductDetails = () =>{
             <div className="row">
                 <div className="product-info-col col-sm-2 me-5">
                      <img src="https://assets.mugglenet.com/wp-content/uploads/2022/05/DH-book-cover-Swedin-edition.jpg" className="product-details-img w-100" alt="..." />
-                     <button className=" btn btn-primary product-details-btn mt-2 mb-2 w-100">Buy Now</button>
-                     <button className=" btn btn-secondary product-details-btn">Add to Cart</button>
+                     <button className="btn btn-primary product-details-btn mt-2 mb-2 w-100">Buy Now</button>
+                     <button className="btn btn-secondary product-details-btn">Add to Cart</button>
                 </div>
                 <div className="col-sm-7">
                     <div className="row">
@@ -58,7 +58,7 @@ const ProductDetails = () =>{
 
                     </div>
 
-                    <div className="row align-items-start text-center mb-5">
+                    <div className="row align-items-start text-center mb-4 pb-2">
 
                         <div className="col-sm-2 text-facilities facilities">
                            <span className="texttt">10 days returnable</span> 
@@ -75,9 +75,18 @@ const ProductDetails = () =>{
 
                     </div>
 
-                    <hr className="mb-3" />
+                    <hr className="mb-4" />
 
-
+                    <div>
+                        <p className="fw-bold mb-2">Description:</p>
+                        <ul>
+                            <li>Spellbinding, enchanting, bewitching stuff ― Mirror</li>
+                            <li>Teachers say a chapter can silence the most rowdy of classes ― Guardian</li>
+                            <li>One of the greatest literary adventures of modern times ― Sunday Telegraph</li>
+                            <li>The Harry Potter stories will join that small group of children's books which are read and reread into adulthood ― TLS</li>
+                            <li>I've yet to meet a ten-year-old who hasn't been entranced by its witty, complex plot and the character of the eponymous Harry ― Independent</li>
+                        </ul>
+                    </div>
                     
                   
                     
