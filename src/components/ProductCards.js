@@ -14,7 +14,7 @@ const ProductCards = () =>{
                             {/* <p className="g">Harry Potter</p>
                             <h5 className="c">$400</h5> */}
                             
-                            <button className=" btn btn-secondary add-to-cart-btn w-100">Go somewhere</button>
+                            <button className=" btn btn-secondary add-to-cart-btn w-100">Go to Cart</button>
                         </div>
                     </div>
                 </div>
