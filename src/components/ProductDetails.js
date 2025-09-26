@@ -29,12 +29,10 @@ const ProductDetails = () =>{
                             </div>
 
                              <div className="mb-3">    
-                                <span className="me-5"><strong>Size: </strong></span>
-                                <span className="me-2 quantity-box"><strong>S</strong></span>
-                                <span className="me-2 quantity-box"><strong>M</strong></span>
-                                <span className="me-2 quantity-box"><strong>XL</strong></span>
-                                <span className="me-2 quantity-box"><strong>XXL</strong></span>
-
+                                <span className="me-5"><strong>Version: </strong></span>
+                                <span className="me-2 quantity-box"><strong>Audiobook</strong></span>
+                                <span className="me-2 quantity-box"><strong>Hardcover</strong></span>
+                                <span className="me-2 quantity-box"><strong>Paperback</strong></span>
                             </div>
                         </div>
                     </div>
