@@ -126,3 +126,21 @@
 .products-num{
     font-size: 0.7rem;
 }
+
+
+.nav-link{
+    text-decoration: underline;
+}
+
+.text-secondar{
+    color: rgb(169, 169, 169);
+    font-weight: bold;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-strong{
+    font-weight: 600;
+}
