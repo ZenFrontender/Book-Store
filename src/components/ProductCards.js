@@ -5,7 +5,7 @@ const ProductCards = () =>{
     return(
         <div className="container">
             <div className="row">
-                <div className="col-sm-2">
+                <div className="">
                     <div className="card product-card">
                         <img src="https://assets.mugglenet.com/wp-content/uploads/2022/05/DH-book-cover-Swedin-edition.jpg" className="card-img-top" alt="..." />
                         <div className="card-body">
