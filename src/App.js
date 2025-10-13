@@ -8,6 +8,7 @@ import ProductsListing from "./components/ProductsListing";
 import ProductCards from "./components/ProductCards";
 import ProductDetails from "./components/ProductDetails";
 import { IconName } from "react-icons/bs";
+import Cart from "./components/Cart";
 
 const App = () =>{
 
@@ -38,6 +39,10 @@ const appRoutes = createBrowserRouter([
           {
             path: '/products/productDetails',
             element: <ProductDetails />
+          },
+          {
+            path: '/cart',
+            element: <Cart />
           }
         ]
       }
